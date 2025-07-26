@@ -1,7 +1,8 @@
-@import url('https://api.fontshare.com/css?f[]=clash-display@400,700&display=swap');
-:root{
-    --main-font: 'Clash Display', sans-serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -23,5 +24,89 @@ ul {
     align-items: center;
 }
 h1, h2, h3 {
+    width: fit-content;
+}
+.cursor {
+    cursor: pointer;
+}
+
+/* Fonts */
+.albert-font {
+    font-family: "Albert Sans", sans-serif;
+}
+.sora-font {
+    font-family: "Sora", sans-serif;
+}
+.cinzel-font {
+    font-family: "Cinzel", serif;
+}
+.cormorant-font {
+    font-family: "Cormorant Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight:300;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+/* Custom Colors */
+.dark-primary-c {
+    color: #2A254B;
+}
+.primary-c {
+    color: #4E4D93;
+}
+.light-grey-c {
+    color: #F9F9F9;
+}
+.border-grey-c {
+    color: #EBE8F4;
+}
+.white-c{
+    color: white;
+}
+.border-dark-c{
+    color: #CAC6DA;
+}
+.light-purple-c{
+    color: #726E8D;
+}
+
+/* Custom Colors | Background */
+.dark-primary-bg {
+    background-color: #2A254B;
+}
+.primary-bg {
+    background-color: #4E4D93;
+}
+.light-grey-bg {
+    background-color: #F9F9F9;
+}
+.border-grey-bg {
+    background-color: #EBE8F4;
+}
+.white-bg{
+    background-color: white;
+}
+.border-dark-bg{
+    background-color: #CAC6DA;
+}
+.light-purple-bg{
+    background-color: #726E8D;
+}
+
+.w-30 {
+    width: 30%;
+}
+.w-40 {
+    width: 40%;
+}
+.w-60 {
+    width: 60%;
+}
+.w-70 {
+    width: 70%;
+}
+
+.fit-content { 
     width: fit-content;
 }
