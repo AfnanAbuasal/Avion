@@ -3,3 +3,12 @@
 .main-section dev {
     height: 1020px;
 }
+
+.popular-section img {
+    height: 375px;
+    object-fit: cover;
+}
+
+.email-sign-up-section input::placeholder {
+    color: #CAC6DA;
+}
