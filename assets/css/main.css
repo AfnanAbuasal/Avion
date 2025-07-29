@@ -9,6 +9,13 @@
     object-fit: cover;
 }
 
-.email-sign-up-section input::placeholder {
+.about-section input::placeholder {
     color: #CAC6DA;
+}
+
+.about-section p {
+    font-size: small;
+}
+.about-section .content {
+    margin-left: 60px;
 }
