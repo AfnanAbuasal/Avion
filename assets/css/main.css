@@ -1,21 +1,24 @@
 @import url('./base.css');
 
+/* Main Section */
 .main-section dev {
     height: 1020px;
 }
 
+/* Popular Products Section */
 .popular-section img {
     height: 375px;
     object-fit: cover;
 }
 
-.about-section input::placeholder {
+/* About Section */
+.email-sign-up-section input[type="email"]::placeholder {
     color: #CAC6DA;
+    font-weight: 300;
 }
 
-.about-section p {
-    font-size: small;
-}
-.about-section .content {
-    margin-left: 60px;
+/* Footer */
+footer input[type="email"]::placeholder {
+    color: white;
+    font-weight: 300;
 }
