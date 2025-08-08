@@ -17,6 +17,10 @@ ul {
     list-style: none;
 }
 
+img {
+    display: block;
+}
+
 .cursor {
     cursor: pointer;
 }
