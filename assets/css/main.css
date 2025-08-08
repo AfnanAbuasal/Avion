@@ -25,7 +25,6 @@ footer input[type="email"]::placeholder {
 
 /* ------------------ Media Query ----------------- */
 
-/* Main Section (Hero Section) */
 /* Small */
 @media (max-width: 767.98px) {
     .container {
@@ -33,6 +32,7 @@ footer input[type="email"]::placeholder {
         margin: auto;
     }
 
+    /* Main Section (Hero Section) */
     .main-section {
         .content {
             padding: 2rem !important;
@@ -51,6 +51,11 @@ footer input[type="email"]::placeholder {
     .hero-img {
         display: none;
     }
+
+    /* Features Section */
+    .features-section .features {
+        flex-direction: column !important;
+    }
 }
 
 /* Medium */
@@ -60,6 +65,7 @@ footer input[type="email"]::placeholder {
         margin: auto;
     }
 
+    /* Main Section (Hero Section) */
     .main-section {
         .content {
             padding: 2rem !important;
