@@ -27,10 +27,6 @@ footer input[type="email"]::placeholder {
 
 /* Small */
 @media (max-width: 767.98px) {
-    .container {
-        width: calc(100% - 60px);
-        margin: auto;
-    }
 
     /* Main Section (Hero Section) */
     .main-section {
@@ -56,14 +52,23 @@ footer input[type="email"]::placeholder {
     .features-section .features {
         flex-direction: column !important;
     }
+
+    /* Listings Section */
+    .listings-section {
+        h3 {
+            font-size: 0.7rem !important;
+        }
+        p{
+            font-size: 0.7rem !important;
+        }
+        a {
+            font-size: 0.7rem !important;
+        }
+    }
 }
 
 /* Medium */
 @media (min-width: 768px) and (max-width: 991.98px) {
-    .container {
-        width: calc(100% - 60px);
-        margin: auto;
-    }
 
     /* Main Section (Hero Section) */
     .main-section {
