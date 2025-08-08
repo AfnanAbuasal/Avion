@@ -23,4 +23,62 @@ footer input[type="email"]::placeholder {
     font-weight: 300;
 }
 
-/* Media Query */
+/* ------------------ Media Query ----------------- */
+
+/* Main Section (Hero Section) */
+/* Small */
+@media (max-width: 767.98px) {
+    .container {
+        width: calc(100% - 60px);
+        margin: auto;
+    }
+
+    .main-section {
+        .content {
+            padding: 2rem !important;
+            gap: 3rem !important;
+        }
+
+        p {
+            font-size: 14px;
+        }
+
+        a {
+            display: none;
+        }
+    }
+
+    .hero-img {
+        display: none;
+    }
+}
+
+/* Medium */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .container {
+        width: calc(100% - 60px);
+        margin: auto;
+    }
+
+    .main-section {
+        .content {
+            padding: 2rem !important;
+        }
+
+        h1 {
+            font-size: 20px !important;
+        }
+
+        p {
+            font-size: 10px;
+        }
+
+        a {
+            font-size: 10px;
+            padding: 5px 10px !important;
+        }
+    }
+}
+
+/* Large */
+@media (min-width: 992px) {}
